@@ -12,6 +12,20 @@ a:hover {
     color: #333;
 }
 
+iframe {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table#Teams{
+  border: 1px solid black;
+  text-align: center;
+  align: center;
+  width: 100%;
+  height: 100%;
+}
+
 input[type="text"],
 input[type="password"] {
     background: white;
@@ -78,11 +92,6 @@ div.page div.body {
     padding: 10px;
 }
 
-div.page div.body table {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Trebuchet MS', sans-serif;
-}
 
 div.page div.footer {
     background: #eee;
