@@ -14,6 +14,8 @@ a:hover {
 
 iframe {
   border: 0px;
+  width: 100%;
+  /*height: 400px;*/
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
@@ -21,45 +23,29 @@ iframe {
 }
 
 table, th, td{
-  /*border: 1px solid black;
-  border-collapse: collapse;*/
+  border: 1px solid black;
+  border-collapse: collapse;
   text-align: center;
+  width: 33.33%;
 }
 
-table{
-  height: 130px;
+table#Teams{
+  height: 100%;
   width: 100%;
 }
 
-input[type="text"],
-input[type="password"] {
-    background: white;
-    border: 1px solid #BFE6E2;
-    padding: 2px;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    color: #105751;
-}
-
-input[type="submit"] {
-    background: #105751;
-    border: 1px solid #073B36;
-    padding: 1px 3px;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    color: white;
+table#One{
+  height: 260px;
+  width:100%;
 }
 
 div.page {
     background: white;
     border: 1px solid #6ECCC4;
-    width: 700px;
+    width: 1000px;
+
     margin: 30px auto;
+
 }
 
 div.page h1 {
@@ -103,59 +89,4 @@ div.page div.footer {
     color: #888;
     padding: 5px 10px;
     font-size: 12px;
-}
-
-div.page ul.events {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-div.page ul.events li {
-    margin: 10px 0;
-    padding: 5px;
-    background: #F0FAF9;
-    border: 1px solid #DBF3F1;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    min-height: 48px;
-}
-
-div.page ul.events p {
-    margin: 0;
-}
-
-div.page ul.events li img {
-    float: left;
-    padding: 0 10px 0 0;
-}
-
-div.page ul.events li small {
-    font-size: 0.9em;
-    color: #888;
-}
-
-ul.flashes {
-    list-style: none;
-    margin: 10px 10px 0 10px;
-    padding: 0;
-}
-
-ul.flashes li {
-    background: #B9F3ED;
-    border: 1px solid #81CEC6;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    padding: 4px;
-    font-size: 13px;
-}
-
-div.error {
-    margin: 10px 0;
-    background: #FAE4E4;
-    border: 1px solid #DD6F6F;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    padding: 4px;
-    font-size: 13px;
 }
