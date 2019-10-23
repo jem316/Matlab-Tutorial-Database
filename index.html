@@ -7,9 +7,22 @@
     <a href="start.html" target="body">Return to Home</a>
   </div>
     <div class="body">
-      <iframe class = "body" name="body" src="start.html"></iframe>
+      <table id="Teams">
+        <tr>
+          <td><a href="team1.html" target="body"><img src="cat.jpg" height="100px"><br>Team 1</td>
+          <td><a href="team2.html" target="body"><img src="puppy.jpg" height="100px"><br>Team 2</td>
+          <td><a href="team3.html" target="body"><img src="aww.jpg" height="100px"><br>Team 3</td>
+        </tr>
+      </table>
     </div>
   <div class="footer">
     Pedagogy Kiosk
   </div>
 </div>
+<script type="text/javascript">
+  increaseSize()
+  {
+    var x = document.getElementById("body");
+    x.innerHTML.style.height = "500px";
+  }
+</script>
