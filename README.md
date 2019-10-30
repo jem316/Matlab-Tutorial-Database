@@ -5,4 +5,4 @@ PedagogyKiosk:
 Settle on a font, image and text size, etc.
 
 GitHub:
--
+-We used GitHub to host this project, so that we could all work on it simultaneously.
